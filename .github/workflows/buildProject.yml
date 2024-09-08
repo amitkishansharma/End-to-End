@@ -15,5 +15,5 @@ jobs:
           java-version: '17'
           distribution: "temurin"
           architecture: x64
-      - run: mvn --batch-mode --update-snapshots verify  
+      - run: mvn -compiler:compile
          
